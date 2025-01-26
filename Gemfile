@@ -12,3 +12,8 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
+gem "jekyll", "~> 4.3"
+gem "bundler", "~> 2.6"
+gem "logger"  # 누락된 의존성 추가
+gem "base64"
+gem "csv"     # 누락된 의존성 추가
